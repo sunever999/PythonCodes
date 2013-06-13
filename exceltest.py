@@ -1,7 +1,7 @@
 import xlrd
 
 def loopSheets():	
-	book = xlrd.open_workbook("/Users/Sam/Documents/myfile.xls")
+	book = xlrd.open_workbook("/Users/Sam/Documents/color.xls")
 	#print "The number of worksheets is", book.nsheets
 	#print "Worksheet name(s):", book.sheet_names()
 
@@ -13,7 +13,7 @@ def loopSheets():
 
 		table = book.sheets()[s]
 		nrows = table.nrows
-		ncols = table.ncols
+		ncols = 3   #table.ncols
 
 		oneSheetList = []
 
