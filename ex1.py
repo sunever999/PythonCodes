@@ -7,4 +7,4 @@ print "Hello World!"
 #print 'I "said" do not touch this.'
 #print 'One more line'
 
-#print 'Long time no see, python!'
+print 'Long time no see, python!'
